@@ -79,3 +79,19 @@ height: 200px;
 #contact{
 padding: 20px;
 }
+
+#dev {
+text-align: center;
+}
+
+.centpic {
+padding: 0 10%;
+}
+
+.centp {
+text-align: justify;
+}
+
+.name {
+text-align: center;
+}
