@@ -10,23 +10,8 @@
 	</head>
 	
 	<body>
-		<nav>
-		
-			<div id="left">
-				
-				<a href="index.html"><img src="../images/karmalogobar2.png" id="logo"></a>
-				
-			</div>
-			<div id="right">
-				<ul>
-				<li><a href="home.html" class="right">Home</a></li>
-				<li><a href="carousel.html" class="right">Screenshots</a></li>
-				<li><a href="jobs.html" class="right">Jobs</a></li>
-				<li><a href="contact.html" class="right">Contact Us</a></li>
-				</ul>
-			</div>
-		
-		</nav><br>
+    <?php include("nav.php"); ?>
+
 		
 		<p class="centered">Below is a table of all roles performed by members of our company:</p><br>
 		
@@ -57,7 +42,7 @@
 			</tr>
 		</table>
 		<br>
-		<p class="centered">Visit the <a href="contact.html">contact page</a> to apply!</p>
+		<p class="centered">Visit the <a href="contact.php">contact page</a> to apply!</p>
 		
 	</body>
 </html>

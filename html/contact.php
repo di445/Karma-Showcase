@@ -8,25 +8,9 @@
 	</head>
 	
 	<body>
-		<nav>
-		
-			<div id="left">
-				
-				<a href="index.html"><img src="../images/karmalogobar2.png" id="logo"></a>
-				
-			</div>
-			<div id="right">
-				<ul>
-				<li><a href="home.html" class="right">Home</a></li>
-				<li><a href="carousel.html" class="right">Screenshots</a></li>
-				<li><a href="jobs.html" class="right">Jobs</a></li>
-				<li><a href="contact.html" class="right">Contact Us</a></li>
-				</ul>
-			</div>
-		
-		</nav><br>
-		
-		<form name="myForm" action="submitted.html" onsubmit="return isFormCorrect()" method="post">
+    <?php include("nav.php"); ?>
+
+    <form name="myForm" action="submitted.php" onsubmit="return isFormCorrect()" method="post">
 			<section id="contact">
 				First Name: <input type="text" name="firstName" "id="firstName" ><br><br>
 				Last Name: <input type="text" name="lastName" id="lastName"><br><br>

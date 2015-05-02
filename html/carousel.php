@@ -12,7 +12,6 @@
 		<script type="text/javascript">
 			function startfancybox(){
 				$(".fancybox").fancybox();
-				
 			}
 		</script>
 
@@ -20,28 +19,8 @@
 	</head>
 	
 	<body onload="startfancybox()">
-		<nav>
-		
-			<div id="left">
-				
-				<a href="index.html"><img src="../images/karmalogobar2.png" id="logo" class="carouselLogo"></a>
-				
-			</div>
-			<div id="right">
-				<ul class="myUl">
-				<li><a href="home.html" class="right">Home</a></li>
-				<li><a href="carousel.html" class="right">Screenshots</a></li>
-				<li><a href="jobs.html" class="right">Jobs</a></li>
-				<li><a href="contact.html" class="right">Contact Us</a></li>
-				</ul>
-			</div>
-		
-		</nav>
-	
-	
-	
-	
-	
+    <?php include("nav.php"); ?>
+
 		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
